@@ -1,0 +1,14 @@
+{
+  "name": "react-1projrct",
+  "version": "1.0.0",
+  "description": "This is a react project",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
