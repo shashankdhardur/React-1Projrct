@@ -1,3 +1,55 @@
-#heading{
-    color: red;
+.appheader {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.applogoimg {
+    height: 100px;
+    width: 120px;
+}
+
+.navitems>ul {
+    display: flex;
+}
+
+.navitems>ul>li {
+    font-size: 24px;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+.restorentcontainer {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    display: flex;
+
+}
+
+.restocards {
+
+    width: 250px;
+    height: 500px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 30px 50px;
+    background-color: rgb(199, 199, 199);
+
+}
+
+
+.restocards:hover {
+    border: 2px solid black;
+
+    cursor: pointer;
+}
+
+.search {
+    padding: 10px;
+}
+
+.reslogo {
+    width: 100%;
 }
